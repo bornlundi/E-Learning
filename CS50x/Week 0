@@ -8,6 +8,7 @@ Your project must use at least one conditional = if key space pressed
   at least one loop = repeat until  
   least one variable = SpeedMax
 Your project must use at least one custom block that you have made yourself = Jump 
+  which must take at least one input = Number 1 to 20 for jump speed
 -----
 
 Bat Run, based off Dino Run
