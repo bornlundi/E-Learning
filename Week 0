@@ -1,0 +1,21 @@
+Harvard CS50 	Week 0 Problem set 0 --- Scratch
+
+----- Stipulations
+
+Your project must use at least two sprites (Bat and Oranges), at least one of which must not be a cat(good).
+Your project must have at least three scripts total (i.e., not necessarily three per sprite).
+Your project must use at least one conditional, at least one loop, and at least one variable.
+Your project must use at least one custom block that you have made yourself (via Make a
+Block), which must take at least one input.
+-----
+
+
+Bat controlled by mouse, needs to eat randomly launched oranges, when orange is touched it disappears, keep count at the end display amount eaten.
+-----
+Bat:
+
+Glides towards mouse at all times, 
+Needs outline to know when orange is hit.
+
+Oranges:
+Launched from random point on x=180, glides to random point on x=-180. 
