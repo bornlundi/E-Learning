@@ -1,6 +1,6 @@
 **Harvard CS50 	Week 0 Problem set 0 --- Scratch**  
 
------ Stipulations  
+Stipulations  
 
 Your project must use at least two sprites = Bat and Keys  
 Your project must have at least three scripts total = Block, Bat, Keys  
@@ -9,10 +9,10 @@ Your project must use at least one conditional = if key space pressed
   least one variable = SpeedMax  
 Your project must use at least one custom block that you have made yourself = Jump   
   which must take at least one input = Number 1 to 20 for jump speed  
------  
+  
 
 Bat Run, based off Dino Run  
------  
+  
 Bat:  
   constantly changes costume,   
   jumps with space key and is in certain costume,   
