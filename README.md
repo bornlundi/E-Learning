@@ -1,5 +1,5 @@
 # E-Learning
-Notes and Projects from courses I completed online.  
+**Notes and Projects from courses I completed online.  
 
   CS50x	FALSE  
   Helsinki Python MOOC	FALSE  
