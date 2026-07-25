@@ -159,6 +159,13 @@ At the time yoru program is compiled, #define goes through your code and replace
 
 Command Line  
 -  
+CS50 IDE uses a cloud based machine running Ubuntu, on of the many flavors of the Linux OS.  Many modern distributions have GUI (Graphical user interfaces) to allow easy mouse-based navigation.   
+Let's look at some important commands on all UNIX-based system.  
+**ls**  
+short for list, this command reads out all files and folders in current directory.  
+
+
+
 
 
 
