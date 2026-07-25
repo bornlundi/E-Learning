@@ -1,7 +1,7 @@
 # C
 
 
- Data Type   
+ Data Types   
 -
   Unlike C, most modern languages don't require you to specify the data type of a variable.  
   In C, we specify the type of every variable we create the first time we use it.  
@@ -81,7 +81,59 @@ Can also check for equality (x == y) and inequality (x != y)
 
 Conditional Statements  
 - 
+Conditional expressions allow your programs to make decisions and take different forks in the road, depending on the values of variables or user input.   
+ **if (boolean expression)**  
+Use boolean expressions to make decisions.  
+ if the boolean expresion evalues to true, all lines of code between the curly braces will execute in order from top to bottom  
+ if the boolean expression evaluates to false, those lines of code will not execute.  
+ if  
+  {  }  
+ else  
+  {  }  
+ now if false, all lines of code between the second set of curly braces will execute from top to bottom  
+ In C, it is possible to create an if-else chain.  
+ each branche is mutually exclusive as expected.ie   
+if  
+{   } // first branch  
+if else     
+  {    } // second branch  
+if else     
+  {  } // third branch   
+ else    
+  {  } //fourh branch  
+**switch**  
+use discrete cases to make decisions.  
+C's switch() statement is a conditional statement that permits enumeration of discrete cases, instead of relying on boolean expressions.  
+It's important to break; between each case, or you will "fall through" each case (unless that is a desired behaviour.   
+**ternary**  
+use to replace a very simple if-else to make your code look fancy.  
+the ternary operator (?:) is mostly a cute trick, but it is useful for writing trivially short condtional branches. Be familiar with it, but know that you won't need to write it if you don't want to.  
+int x = (expr) ? 5 : 6; // if someone boolean is true, assign value 5, otherwise assign value 0.  
 
+Loops 
+- 
+Loops allow your programs to execute lines of code repeatedly, saving you from needing to copy and past or repeat lines of code.  
+**Infinite loop**  
+while (true) 
+{ } // Lines of code will repeat endlessy top to bottom unlesss we break; or ctrl C if we kill the pogram.  
+**while (boolean-expr)**
+{ } // if bool is true, lines of code inside continue to evaluate until bool becomes false.  
+repeat until will keep doing it until the bool is true, the while does it until bool is false.  
+**do-while**  
+do  
+{}  
+while (boolean-expr);  
+this loop will execute all lines of code betweeen the curly braces once, and then, if the boolean-exp evaluates to true, will go back and repeat the process until boolean-expr evaluates to false.  
+**for loop**  
+for (int i = 0; i < 10; i++)  
+{}  
+For loops are used to repeat the body of a loop a specifie number of times, in this example 10.  
+The process undertaken for a loop is: 
+counter variable is set, if true loop executes, if false, loop does not execute, counter value is incremented and bool is checked again.  
+
+
+
+ 
 
 
 
